@@ -3730,7 +3730,7 @@
               $async$temp1 = J;
               $async$temp2 = C.C_JsonCodec;
               $async$goto = 2;
-              return P._asyncAwait(W.HttpRequest_getString("kysymykset.json"), $async$main);
+              return P._asyncAwait(W.HttpRequest_getString("https://csfoundations.cs.aalto.fi/json-data/kysymykset.json"), $async$main);
             case 2:
               // returning from await.
               kysymykset = $async$temp1.$index$asx($async$temp2.decode$2$reviver(0, $async$result, null), "kysymykset");
